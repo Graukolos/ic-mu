@@ -1,13 +1,14 @@
 [package]
 name = "ic-mu"
-version = "0.1.0"
+version = "0.1.1"
 authors = ["Max Erdelmeier <max.erdelmeier@graukolos.tech>"]
 edition = "2021"
 description = "iC-MU Magnetic Off-Axis Absolute Position Encoder driver"
+readme = "README.md"
 repository = "https://github.com/Graukolos/ic-mu/"
 license = "MIT"
 categories = ["embedded", "hardware-support", "no-std"]
 
 [dependencies]
 embedded-hal = "1.0.0"
-smallvec = "1.13.1"
+smallvec = "1.13.0"
